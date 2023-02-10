@@ -1,0 +1,24 @@
+{
+  "name": "doublespark/contao-isotope-media-enhanced",
+  "type": "ds-contao-bundle",
+  "description": "Adds some extra features to Isotope's image management",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jamie Devine",
+      "homepage": "https://www.doublespark.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "isotope/isotope-core": "^2.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Doublespark\\IsotopeMediaEnhancedBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "Doublespark\\IsotopeMediaEnhancedBundle\\ContaoManager\\Plugin"
+  }
+}
